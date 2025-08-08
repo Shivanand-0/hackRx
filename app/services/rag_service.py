@@ -24,7 +24,7 @@ class RAGService:
                 name=settings.PINECONE_INDEX_NAME,
                 dimension=pinecone_dimension, # Use the new dimension
                 metric='cosine',
-                spec=ServerlessSpec(cloud='aws', region='us-west-2')
+                spec=ServerlessSpec(cloud='aws', region='us-east-1')
             )
         self.pinecone_index = pc.Index(settings.PINECONE_INDEX_NAME)
 

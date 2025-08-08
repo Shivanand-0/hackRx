@@ -3,7 +3,7 @@ import requests
 import json
 
 # url = "http://localhost:8000/hackrx/run"
-url = "https://hackrx-api.onrender.com/hackrx/run"
+url = "https://hackrx-api-90rx.onrender.com/hackrx/run"
 
 headers = {
     "accept": "application/json",
