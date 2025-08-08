@@ -1,0 +1,12 @@
+# requirements.txt
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+google-generativeai
+pinecone
+sentence-transformers
+requests
+pypdf
+python-docx
+python-dotenv
