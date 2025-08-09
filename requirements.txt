@@ -10,3 +10,4 @@ requests
 pypdf
 python-docx
 python-dotenv
+langchain-text-splitters
